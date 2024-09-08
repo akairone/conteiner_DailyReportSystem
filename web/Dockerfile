@@ -1,10 +1,6 @@
 # 0. ubuntu:22.04をベースにする
 FROM ubuntu:22.04
 
-# 1. command_DailyReportSystemディレクトリをルートディレクトリに作成して
-#    そのなかにfirstvi.txtを作成
-RUN mkdir /command_DailyReportSystem
-RUN touch /command_DailyReportSystem/firstvi.txt
 
 # 2. viのインストール
 RUN apt update
